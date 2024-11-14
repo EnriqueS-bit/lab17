@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 17:Blog personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Enrique Eduardo Sinning Matinez</h1>
+    </header>
+
+    <section>
+        <button onclick="mostrarMensaje()">Bienvenidos a mi blog personal!!!</button>
+        <h2>Biografía</h2>
+        <img src="Yo.jfif" width="400" height="300" alt="Este no soy Yo" class="imgcentrada">
+        <p>Soy un apasionado ingeniero(en curso) con una sólida formación en diseño de circuitos y programación. 
+        Con habilidades técnicas en HTML, CSS, JavaScript, Multisim, Proteus y Matlab, he trabajado en diversos proyectos que demuestran 
+        su capacidad para resolver problemas complejos y crear soluciones innovadoras.</p>
+        <p>
+        Dedicado y comprometido con la excelencia, siempre busco aprender y mejorar mis habilidades. Mi pasión 
+        por la tecnología y el diseño me ha llevado a colaborar en múltiples proyectos, donde he demostrado ser un valioso miembro del equipo.    
+        En mi tiempo libre, disfruto de compartir mis conocimientos a través de mi blog personal, donde escribo sobre mis experiencias 
+        en el mundo de la ingeniería y la programación.</p>
+    </section>
+
+    <section class="Habilidades">
+        <h2>Habilidades Técnicas.</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript.</li>
+            <li>Diseño de circuitos.</li>
+            <li>Multisim, Proteus.</li>
+            <li>Matlab, Simulink, Simscape.</li>
+        </ul>
+    </section>
+    <section>
+    <table>
+        <tr>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+        </tr>
+        <tr>
+            <td><img src="html.png" width="200" height="200" alt="Emblema de HTML"></td>
+            <td><img src="CSS.png" width="250" height="200" alt="Emblema de CSS"></td>
+            <td><img src="Javascript.png" width="400" height="200" alt="Emblema de JavaScript"></td>
+        </tr>
+        <tr class="Nivel">
+            <td>Nivel basico</td>
+            <td>Nivel basico</td>
+            <td>Nivel basico</td>
+        </tr>
+    </table>
+    </section>
+    <section>
+        <h2>Contacto</h2>
+        <form action="">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label>Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label>Mensaje:</label>
+            <textarea name="Mensaje" id="Mensaje"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Contáctame: &copy - <a href="mailto:eesinning@unicesar.edu.co">Enrique E. Sinning M.</a>
+        <a href="https://github.com/EnriqueS-bit">Perfil de Github</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
